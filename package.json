@@ -1,5 +1,39 @@
 {
+  "name": "",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "license": "AGPL-version-3.0",
+  "private": true,
+  "engines": {
+    "node": ">= 18.0.0",
+    "npm": ">= 6.0.0"
+  },
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": "",
+  "keywords": [],
+  "author": {
+    "name": "",
+    "email": "",
+    "url": ""
+  },
+  "contributors": [],
+  "scripts": {
+    "start": "node ./dist/app.js",
+    "dev": "node ./src/app.js"
+  },
   "dependencies": {
-    "langchain": "^0.1.2"
+    "@langchain/community": "^0.0.16",
+    "@langchain/core": "^0.1.12",
+    "@langchain/google-genai": "^0.0.2",
+    "@langchain/openai": "^0.0.11",
+    "dotenv": "^16.3.1",
+    "langchain": "0.0.207",
+    "puppeteer": "^19.11.1"
   }
 }
